@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: bisque;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 50px;
+}
+
+button {
+    background-color: rgb(63, 230, 63);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    height: 30px;
+    width: 100px;
+}
